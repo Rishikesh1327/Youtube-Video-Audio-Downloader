@@ -51,7 +51,6 @@ Replace the URL inside the script with the video you want to download.
 
 Example:
 
-```python
 url = "PASTE_YOUR_YOUTUBE_VIDEO_URL_HERE"
 
 ---
