@@ -53,3 +53,87 @@ Example:
 
 ```python
 url = "PASTE_YOUR_YOUTUBE_VIDEO_URL_HERE"
+
+---
+
+### Step 4 — Run the Script
+
+Run the notebook cell.
+
+You will see the following option:
+
+1 = Video (MP4 Highest Quality)  
+2 = Audio (MP3 High Bitrate)
+
+Enter:
+
+- **1** → Download video  
+- **2** → Download audio  
+
+---
+
+### Step 5 — Download the File
+
+Once the process finishes, the script will automatically **download the generated file to your computer**.
+
+---
+
+## Example Use Cases
+
+This script can be useful for:
+
+- Downloading videos for **offline viewing**
+- Extracting audio from **lectures**
+- Saving **podcasts**
+- Creating **MP3 files from videos**
+- Learning **Python automation**
+
+---
+
+## How the Script Works
+
+The script performs the following steps:
+
+1. Installs required tools (`yt-dlp` and `ffmpeg`)
+2. Removes old files to prevent download conflicts
+3. Accepts user input for download format
+4. Downloads the highest quality video or audio
+5. Converts audio into MP3 format
+6. Detects the newest file created
+7. Automatically downloads the file to the user’s computer
+
+---
+
+## Important Note
+
+YouTube typically stores audio using **Opus format (~160 kbps)**.
+
+When converting to **MP3**, the script encodes the audio at **320 kbps**, but the final quality depends on the original source audio available on YouTube.
+
+---
+
+## Disclaimer
+
+This project is intended **for educational purposes only**.
+
+Please respect **YouTube's terms of service** and only download content you have permission to use.
+
+---
+
+## Author
+
+**Rishikesh Dighe**
+
+Data Analyst | Tech Enthusiast | Automation Learner
+
+LinkedIn  
+https://www.linkedin.com/in/rishikesh-dighe/
+
+GitHub  
+https://github.com/Rishikesh1327
+
+---
+
+## If you found this useful
+
+⭐ Consider **starring this repository** to support the project.
